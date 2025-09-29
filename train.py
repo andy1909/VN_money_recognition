@@ -1,12 +1,9 @@
-# train.py (Sử dụng CNN)
-
 import os
 import cv2
 import numpy as np
 from sklearn.model_selection import train_test_split
 from tensorflow.keras.utils import to_categorical
 from tensorflow.keras.models import Sequential
-# << THAY ĐỔI: Import các lớp cần thiết cho CNN >>
 from tensorflow.keras.layers import Dense, Conv2D, MaxPooling2D, Flatten, Dropout
 from tensorflow.keras.optimizers import Adam
 import matplotlib.pyplot as plt
